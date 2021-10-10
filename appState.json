@@ -1,0 +1,105 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "9fe614f3-c22d-462e-a108-7d364de6458d": {
+        "id": "9fe614f3-c22d-462e-a108-7d364de6458d",
+        "parent": null,
+        "name": "GYMSchedule.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "GYMSchedule.py",
+        "cursor": {
+          "lineNumber": 46,
+          "column": 47
+        },
+        "config": {
+          "runtime": "python3.9",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "GYMSchedule"
+        },
+        "triggers": [
+          {
+            "resourceName": "alexaSKd6bb8c1e30194557845fe36134ac5c19",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1633865275461
+      },
+      "ae26f7e7-182c-488b-b1ba-551a1933aa33": {
+        "id": "ae26f7e7-182c-488b-b1ba-551a1933aa33",
+        "parent": null,
+        "name": "requirements.txt",
+        "type": "TEXT_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "requirements.txt"
+      }
+    },
+    "openFiles": [
+      "9fe614f3-c22d-462e-a108-7d364de6458d"
+    ],
+    "currentFileId": "9fe614f3-c22d-462e-a108-7d364de6458d",
+    "resources": {
+      "alexaSKd6bb8c1e30194557845fe36134ac5c19": {
+        "name": "alexaSKd6bb8c1e30194557845fe36134ac5c19",
+        "type": "ALEXA",
+        "config": {
+          "type": 1,
+          "verifiedID": true,
+          "skillID": "amzn1.ask.skill.d6bb8c1e-3019-4557-845f-e36134ac5c19",
+          "applicationID": ""
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "ask_sdk": {
+          "name": "ask_sdk",
+          "version": "1.13.0",
+          "dev": false,
+          "language": "python"
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.9.4",
+    "projectName": "GYMSchedule",
+    "projectDescription": "GYM Schedule for the JD POC",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "python",
+    "platformRegions": {},
+    "lastSave": 1633865523523
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "gymschedule",
+      "url": "https://github.com/albertoribeiro/gymschedule"
+    }
+  }
+}
